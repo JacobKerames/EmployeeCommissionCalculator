@@ -1,8 +1,15 @@
 # Employee Commission Calculator
 
-This program takes input of double values for the commission, base salary, and overtime of an employee to calculate their pay. Pointers are allocated memory and assigned to the memory addresses of these values. The memory addresses of each value are output to the user before memory is deallocated. In addition, output is formatted using setw() and setprecision().
+This program calculates the pay for an employee based on their commission rate, base salary, and overtime hours.
+Getting Started
 
-# What I Learned
+# Running the program
 
-* Dynamic memory allocation with new and delete
-* Output formatting using setw() and setprecision()
+     Prerequisites: C++ compiler
+
+Compile and run the employeeCommissionCalculator.cpp file. The program will prompt you for the employee's commission rate, base salary, and overtime hours. Enter these values and press enter. The program will then calculate and display the employee's pay.
+Functionality
+
+The program has a main function and a calculatePay function. The main function gets user input for the commission rate, base salary, and overtime hours, and then calls the calculatePay function to calculate the employee's pay. The calculatePay function takes in the commission rate, base salary, and overtime hours as arguments and calculates the employee's pay using these values.
+
+The program also demonstrates the use of pointers by declaring several pointers and assigning them the memory addresses of the variables. The content of the variables and pointers is then displayed. Finally, the program deallocates the memory from the pointers and sets them to NULL.
